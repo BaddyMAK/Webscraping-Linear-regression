@@ -39,5 +39,5 @@ The data was scraped from the site https://www.winemag.com/?s=&drink_type=wine&p
 In the Scrap_selenium.py file you will find a simplified code or algorithm that allows you to scrape the site. You can specify how many pages do you want to scrape.
 
 As you see from the next example, https://www.winemag.com/buying-guide/disznoko-2007-eszencia-tokaji/ the dispayed information are splitted into two types : 
--Primary information : Price, Winery, Country, Variety, Designation
--Secondary information : Alcohol, Bottle size, Category, Importer, Date published
+- Primary information : Price, Winery, Country, Variety, Designation
+- Secondary information : Alcohol, Bottle size, Category, Importer, Date published
