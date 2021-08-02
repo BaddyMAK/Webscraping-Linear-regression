@@ -23,6 +23,7 @@ As environment, we will use PyCharm, to scrape the web site and to extract the r
 # Site description 
 
 The data was scraped from the site https://www.winemag.com/?s=&drink_type=wine&page=1 during the week of August 2nd, 2020. As you notice, this site is composed by almost 7000 principal pages where each of those pages, has at most six other secondary / sub-pages. If you open any secondary page you will find that it contains the next information that we want to extract : 
+- Title : The review title 
 - Rating/ Points : The number of points WineEnthusiast rated the wine on a scale of 1-100 (though they say they only post reviews for
 - Price : The cost for a bottle of the wine
 - Designation : The vineyard within the winery where the grapes that made the wine are from
@@ -34,3 +35,9 @@ The data was scraped from the site https://www.winemag.com/?s=&drink_type=wine&p
 - Importer : The person or the firm that has import this product
 - Date Published : The date when the review was published
 - User AVG Rating 
+
+In the Scrap_selenium.py file you will find a simplified code or algorithm that allows you to scrape the site. You can specify how many pages do you want to scrape.
+
+As you see from the next example, https://www.winemag.com/buying-guide/disznoko-2007-eszencia-tokaji/ the dispayed information are splitted into two types : 
+-Primary information : Price, Winery, Country, Variety, Designation
+-Secondary information : Alcohol, Bottle size, Category, Importer, Date published
