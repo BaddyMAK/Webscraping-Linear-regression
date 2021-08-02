@@ -1,5 +1,5 @@
 # Webscraping using python
-First, let's start by defining the term web scraping 
+The competence of scraping data from the web is a very useful skill for data scientists or data engineers. Briefly it is really an important skill for anybody who works in the data world to analyze data, extract insights etc. First, let's start by defining the term web scraping 
 ###### What is web scraping ? 
 Web scraping is the process of executing an algorithm that aims to extract important data. The amount of scrapped data could be huge so that we can use it for future analysis. For example, if we are scrapping an online site that sold certain items, we can use the scrapped data to analyse the future trends, to understand customers'behavior during different periods, to discover reasons behind the bestseller product  
 
